@@ -1,0 +1,49 @@
+.style-body{
+    background-color: rgb(53,87,88);
+    margin-top: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.header-hero{/*É uma seção geral e ela tem o tam da tela, dentro dela tem outras*/
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-top: 60px;
+    
+}
+.barra-navegacao{
+    display: flex;
+    flex-direction:column;
+    align-items:normal;
+    justify-content:initial;/* pra que fiquem separados, distantes uns dos outros*/
+    margin-top: 180px;/*distância do topo*/
+
+}
+.links-navegacao{
+    color: #fefefe;
+    font-size: 30px;
+    letter-spacing: -0.015rem;
+    margin-bottom: 70px;
+    text-align: left;
+    align-items:inherit;
+}
+.titulo-navegacao{
+    color: #fefefe;
+    font-size: 40px;
+    letter-spacing: -1.5%;
+    font-weight: bold;
+    text-align:center;
+}
+.config-paragrafos{
+    color: #fefefe;
+    font-size: 20px;
+    letter-spacing: -1.5%;
+    text-align:left;
+}
+.hero-info-image{
+    display: flex;
+    flex-direction:row-reverse;
+    height: 50px;
+    width: 50px;
+    border-style:solid;
+    border-color: #fefefe;
+}
